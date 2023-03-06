@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!-- (Hyper text markup language) HTML dilinde olduğunu bildirir. HMTL mutlaka <head> ve <body> etiketlerini de barındırmalıdır.--> 
+
+    <head> <!-- etiketi arasına yazılan etikler bize sayfamızla ilgili ipuçları verir ve ihtiyacımız olan dış kaynakları yüklememize yardımcı olur. Sayfamızın verimli çalışmasını ve arama motorları tarafından farkedilmesini sağlar -->
+    
+        <title>Frontend HTML Study</title> <!--bu etiket "başlık" görevini üstlenir, tarayıcıda sekme kısmında görünür. Ama aynı zamanda arama motorlarının da sayfamızı listelerken baktığı yer burasıdır. Açıklayıcı dikkat çekici ve 50-60 karakteri geçmeyecek şekilde yazılmalı.-->
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <!-- Bulunduğumuz dizinde .ico uzantılı bir favicon.ico dosyamız varsa bu dosyayı sekmelerde ismin yanında ikon olarak göstermek için bu şekilde kullanabiliriz. -->
+
+        <meta charset="UTF-8"> <!-- charset özelliği sayfamızdaki yazı karakterlerinin çözümlenme biçimlerini belirttiğimiz özelliktir. Latin alfabesi için verilen charset kodu "UTF-8" -->
+
+    </head> <!-- head kapatma -->
+
+    <body><!-- Web sayfamızda görmek istediğimiz herşey body etiketi altındadır. -->
+
+        <h1>Mertgün Biler</h1> <!-- isim soyisim -->
+        <h2>Hakkımda</h2>
+        <p>Merhaba ben Mertgün, 1983 doğumluyum. Biz de eşimle birlikte kodlamaya başladık bakalım.</p>
+        <h2>Sevdiğim Şeyler</h2>
+        <ol> <!--sıralı liste başlıkları içinde sırasız listeler (ol>li*2>ul>li*2) -->
+            <li>Filmler
+                <ul>
+                    <li>Batman: The Dark Knight</li>
+                    <li>The Terminal</li>
+                </ul>
+            </li>
+            <li>Diziler
+                <ul>
+                    <li>Peaky Blinders</li>
+                    <li>Flight of the conchords</li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Batman: The Dark Knight</h2>
+        <img width="280" src="images/batman-the-dark-knigt-poster.jpg" alt="Batman: The Dark Knight"> <!-- Görsel ekleme. ölçüsü widt="280" olarak değiştirildi. -->
+
+        <p>Kara Şövalye, Christopher Nolan'ın yönettiği bir süper kahraman filmidir. DC Comics'in kurgusal karakteri Batman'den uyarlanan 2005 tarihli Batman Başlıyor filminin devamıdır. Kara Şövalye'nin senaryosunu Christopher ve kardeşi Jonathan Nolan yazmıştır. Hikâyeyi ise David S. Goyer oluşturmuştur. <a href="https://tr.wikipedia.org/wiki/Kara_%C5%9E%C3%B6valye"><em>Vikipedi</em></a></p><!-- Paragrafı Vikipedi'den aldığım için sonuna bir Vikipedi linki ekledim.
+         -->
+        <p> <a href="https://www.imdb.com/title/tt0468569/"><img height="20" src="images/imdb.png" alt="imdb logo"></a> <a href="https://www.imdb.com/title/tt0468569/">9.0</a></p><!-- Bir de imdb linki ekledim. -->
+        
+        
+    </body>
+    </html>
